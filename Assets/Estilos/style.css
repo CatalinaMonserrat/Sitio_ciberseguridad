@@ -1,0 +1,51 @@
+/* Estilo a Sección importancia Seguridad */
+.card-body {
+    background-color: #d5d7da;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+.card h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.card p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* Botones del acordeón (abiertos y cerrados) */
+.accordion-button,
+.accordion-button.collapsed {
+  background-color: #c8cacc;
+  color: #85888a;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Botón del acordeón */
+.accordion-button,
+.accordion-button.collapsed {
+  background-color: #d4e0ec;
+  color: #212529;
+  font-weight: bold;
+  border: none;
+}
+
+/* Cuerpo del acordeón */
+.accordion-body {
+  background-color: #ffffff;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 1rem 1.25rem;
+}
+
+/* Ítem del acordeón */
+.accordion-item {
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.05);
+  margin-bottom: 1rem;
+}
