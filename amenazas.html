@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sitio Ciberseguridad</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Assets/Estilos/style.css">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+            <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="#">Sitio Ciberseguridad</a>
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html#inicio">Inicio</a>
+                    <a class="nav-link" href="amenazas.html">Amenazas Comunes</a>
+                    <a class="nav-link" href="consejos.html">Consejos de Seguridad</a>
+                </div>
+            </div>
+        </nav>
+        <!-- FIN NAVBAR -->
+
+         <!-- Sección Hero -->
+        <section class="hero-section mt-4" id="inicio">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                    <h1 class="hero-title">Amenazas Comunes en Ciberseguridad</h1>
+                    <p class="hero-description">En el mundo digital actual, enfrentamos múltiples amenazas que ponen en riesgo nuestra información, privacidad y seguridad. A continuación, conocerás las más frecuentes y cómo pueden afectarte si no se toman las precauciones necesarias.</p>
+                    <a href="#casos_reales" class="btn btn-primary btn-lg">Explora más</a></div>
+                    <div class="col-md-6"><img src="Assets/Imagenes/amenzas_ciberseguridad.jpg" alt="triangulo con señal de exclamación" class="img-fluid hero-image"></div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN Sección Hero -->
+        <br>
+        <!--Sección Tipos de Ataques-->
+        <section class="tipos-ataques">
+            <div class="container mt-4">
+                <h2>Tipos de Ataques</h2>
+                <div class="row g-4">
+
+            <!--Phishing-->
+            <div class="col-md-6">
+                <div class="card h-100 card-body d-flex flex-column justify-content-center">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Assets/imagenes/Phishing.png" class="img-fluid rounded-start" alt="computadora con simbolo de advertencia">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                 <h5 class="card-title">Phishing</h5>
+                                 <p class="card-text">Es una técnica de engaño que busca robar información confidencial, como contraseñas o datos bancarios. Los atacantes se hacen pasar por entidades confiables (como bancos o plataformas conocidas) mediante correos electrónicos, mensajes o sitios web falsos</p>
+                                 <p class="card-text"><small class="text-body-secondary"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <!--Ransomware-->
+            <div class="col-md-6">
+                <div class="card h-100 card-body d-flex flex-column justify-content-center">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Assets/imagenes/Ransomware.jpg" class="img-fluid rounded-start" alt="escritorio con computador con advertencia">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ransomware</h5>
+                                <p class="card-text">Es un tipo de malware que cifra los archivos de una computadora o red y exige un rescate económico para liberarlos. Puede detener completamente la operación de una empresa o institución pública.</p>
+                                <p class="card-text"><small class="text-body-secondary"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Malware-->
+            <div class="col-md-6">
+                <div class="card h-100 card-body d-flex flex-column justify-content-center">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Assets/imagenes/Malware.jpg" class="img-fluid rounded-start" alt="imagen de virus computadora">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Malware</h5>
+                                <p class="card-text">Son programas maliciosos diseñados para dañar o infiltrarse en sistemas informáticos. Pueden robar datos, controlar dispositivos a distancia o destruir archivos importantes sin que el usuario lo note.</p>
+                                <p class="card-text"><small class="text-body-secondary"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Ataques DDoS-->
+            <div class="col-md-6">
+                <div class="card h-100 card-body d-flex flex-column justify-content-center">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Assets/imagenes/AtaquesDDoS.jpg" class="img-fluid rounded-start" alt="servidor recibiendo multiples ataques maliciosos">
+                        </div>
+                    <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ataques DDoS</h5>
+                                <p class="card-text">Son ataques de denegación de servicio que saturan un sitio web o servidor con tráfico falso hasta volverlo inaccesible. Suelen ser usados para dañar la imagen de empresas o chantajear a organizaciones.</p>
+                                <p class="card-text"><small class="text-body-secondary"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--FIN Sección importancia ciberseguridad-->
+
+            <!--Casos Reales-->
+        <div class="container mt-3" id="casos_reales">
+            <h1 class="text-center">Casos Reales</h1>
+            <div class="accordion" id="accordionExample">
+                <!--Caso Nº1-->
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Caso Nº1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Phishing bancario en Chile.</strong> En 2023, miles de usuarios de BancoEstado recibieron correos falsos que los dirigían a un sitio web casi idéntico al oficial. Al ingresar sus credenciales, los delincuentes accedieron a sus cuentas bancarias. Se reportaron múltiples transferencias no autorizadas en cuestión de minutos..
+                        </div>
+                    </div>
+             </div>
+                <!-- Caso Nº2 -->
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Caso Nº2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                        <strong>Ransomware en hospital público.</strong> Un hospital en América Latina fue blanco de un ataque ransomware que encriptó todo su sistema informático. Los atacantes exigieron 100.000 dólares en criptomonedas para restaurar el acceso. Durante días, las fichas clínicas electrónicas y equipos quedaron completamente inutilizados.
+                    </div>
+                </div>
+            </div>
+              <!-- Caso Nº3 -->
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Caso Nº3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Malware en correos laborales.</strong> Una empresa chilena recibió correos con archivos adjuntos que imitaban cotizaciones y contratos. Al abrirlos, se instaló un malware espía que capturó contraseñas y documentos estratégicos. La filtración generó pérdidas reputacionales y riesgo legal..
+                </div>
+             </div>
+         </div>
+              <!-- Caso Nº4 -->
+             <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                         Caso Nº4
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Ataque DDoS a sitio gubernamental.</strong> Durante una jornada electoral, el sitio web de un organismo estatal recibió un ataque DDoS con millones de solicitudes simultáneas. Esto colapsó el servidor, dejando la plataforma fuera de línea durante horas. El incidente afectó la transparencia y acceso a información pública clave.
+                    </div>
+                </div>
+            </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
