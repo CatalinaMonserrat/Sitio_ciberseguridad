@@ -54,4 +54,15 @@ p {
   margin-bottom: 1rem;
 }
 
-  
+.list-group-item {
+  background-color: #ecf0f3;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  margin-bottom: 15px;
+}
+
+form {
+  background-color: #f0f2f5;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
