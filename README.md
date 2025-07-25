@@ -15,6 +15,12 @@ Informar a los usuarios sobre:
 - **Amenazas Comunes**: Descripción de tipos de ataques, tarjetas y carrusel con ejemplos reales.
 - **Consejos de Seguridad**: Lista de recomendaciones, formulario de contacto con validación y un test interactivo (modal).
 
+## Visualización del Sitio
+
+<p align="center">
+  <img src="Assets/imagenes/sitio_ciberseguridad.jpg" alt="Vista previa del proyecto" width="600"/>
+</p>
+
 ## Tecnologías utilizadas
 
 - HTML5 y CSS3
